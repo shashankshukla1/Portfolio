@@ -7,10 +7,10 @@ import Footer from './Footer'
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='Snap Shot' && <a href="#">
+            {title=='SS-Music' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title=='Co People' && <a href="#">
+            {title=='SS-Music' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
@@ -61,9 +61,9 @@ const Projects = () => {
 export const project = [
     {
         title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
+        description:'SS-Music is a dynamic web application I crafted using React,and JavaScript. This project is a modern and engaging to play new songs and allows users to connect, share content.',
         image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
+        git:'https://github.com/shashankshukla1/SS-Music',
         technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
     },
     {
