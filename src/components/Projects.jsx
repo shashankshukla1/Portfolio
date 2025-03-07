@@ -60,7 +60,7 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
+        title:'SS-Music',
         description:'SS-Music is a dynamic web application I crafted using React,and JavaScript. This project is a modern and engaging to play new songs and allows users to connect, share content.',
         image: {vpn},
         git:'https://github.com/shashankshukla1/SS-Music',
